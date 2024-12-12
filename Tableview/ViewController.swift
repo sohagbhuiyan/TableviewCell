@@ -22,7 +22,6 @@ class ViewController: UIViewController ,UITableViewDelegate, UITableViewDataSour
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let nib = UINib(nibName: "DemoTableViewCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "DemoTableViewCell")
         tableView.delegate = self
